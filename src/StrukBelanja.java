@@ -47,3 +47,10 @@ public class StrukBelanja {
         System.out.print("Uang dibayar  : ");
         int uangDibayar = scanner.nextInt();
 
+        int subtotalBarang1 = hargaBarang1 * jumlahBarang1;
+        int subtotalBarang2 = hargaBarang2 * jumlahBarang2;
+        int subtotalBarang3 = hargaBarang3 * jumlahBarang3;
+        int subtotalBarang4 = hargaBarang4 * jumlahBarang4;
+        int subtotalBarang5 = hargaBarang5 * jumlahBarang5;
+        int totalBelanja = subtotalBarang1 + subtotalBarang2 + subtotalBarang3 + subtotalBarang4 + subtotalBarang5;
+        int kembalian = uangDibayar - totalBelanja;
