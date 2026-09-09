@@ -54,3 +54,18 @@ public class StrukBelanja {
         int subtotalBarang5 = hargaBarang5 * jumlahBarang5;
         int totalBelanja = subtotalBarang1 + subtotalBarang2 + subtotalBarang3 + subtotalBarang4 + subtotalBarang5;
         int kembalian = uangDibayar - totalBelanja;
+
+        System.out.println();
+        System.out.println("STRUK BELANJA");
+        System.out.println(namaBarang1 + " " + jumlahBarang1 + "x" + hargaBarang1 + " = " + subtotalBarang1);
+        System.out.println(namaBarang2 + " " + jumlahBarang2 + "x" + hargaBarang2 + " = " + subtotalBarang2);
+        System.out.println(namaBarang3 + " " + jumlahBarang3 + "x" + hargaBarang3 + " = " + subtotalBarang3);
+        System.out.println(namaBarang4 + " " + jumlahBarang4 + "x" + hargaBarang4 + " = " + subtotalBarang4);
+        System.out.println(namaBarang5 + " " + jumlahBarang5 + "x" + hargaBarang5 + " = " + subtotalBarang5);
+        System.out.println("Total belanja = " + totalBelanja);
+        System.out.println("Uang dibayar = " + uangDibayar);
+        System.out.println("Kembalian = " + kembalian);
+
+        scanner.close();
+    }
+}
